@@ -1,0 +1,17 @@
+.main-nav ul {
+  list-style: none; /* убираем маркеры */
+  margin: 0; /* обнуляем отступы браузера */
+  padding: 0;
+  display: flex; /* пункты в ряд */
+  gap: 16px; /* расстояние между пунктами */
+}
+
+.main-nav a {
+  text-decoration: none; /* убираем подчёркивание */
+  color: #333;
+  padding: 8px 12px; /* кликабельная зона */
+}
+
+.main-nav a:hover {
+  background-color: #f0f0f0;
+}
